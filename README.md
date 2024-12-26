@@ -1,4 +1,8 @@
-
+***Name:N.DHANUSHNI 
+***Company:CODTECH IT SOLUTIONS 
+***ID:CT08FCX Domain:Machine Learning 
+***Duration:December 20th,2024 to january 20th,2025 
+***Mentor:NEELA SANTHOSH KUMAR
 
 Text-to-Speech Conversion Application 🎙️
 Project Overview
