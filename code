@@ -1,0 +1,20 @@
+# Install necessary library
+# pip install gtts
+
+from gtts import gTTS
+import os
+
+# Input text from the user
+text = input("Enter the text you want to convert to speech: ")
+
+# Convert text to speech
+tts = gTTS(text=text, lang='en', slow=False)
+
+# Save the speech to an MP3 file
+output_file = "output.mp3"
+tts.save(output_file)
+
+# Play the audio file
+os.system(f"start {output_file}")  # Use 'open' for Mac or 'xdg-open' for Linux
+
+print("Speech has been generated and saved as output.mp3!")
